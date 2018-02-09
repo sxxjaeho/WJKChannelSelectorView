@@ -14,13 +14,13 @@
 		FACF5FB7202D73CE00AB41DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACF5FB6202D73CE00AB41DC /* Assets.xcassets */; };
 		FACF5FBD202D73CE00AB41DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FBC202D73CE00AB41DC /* main.m */; };
 		FACF5FE0202D74FB00AB41DC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF5FDF202D74FB00AB41DC /* Launch Screen.storyboard */; };
-		FACF5FEC202D751000AB41DC /* WJKSubclassificationSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FE2202D751000AB41DC /* WJKSubclassificationSegmentView.m */; };
-		FACF5FED202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FE7202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m */; };
-		FACF5FEF202D751000AB41DC /* WJKChannelSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FEA202D751000AB41DC /* WJKChannelSelectorView.m */; };
-		FACF5FF0202D751000AB41DC /* WJKChannelSelectorCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FEB202D751000AB41DC /* WJKChannelSelectorCollectionView.m */; };
 		FACF5FF5202D7B4000AB41DC /* WJKGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FF4202D7B4000AB41DC /* WJKGlobal.m */; };
 		FACF5FF8202D804900AB41DC /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FF7202D804900AB41DC /* TabViewController.m */; };
 		FACF5FFB202D80A100AB41DC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FFA202D80A100AB41DC /* SearchViewController.m */; };
+		FACF6005202D941800AB41DC /* WJKSubclassificationSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FFD202D941800AB41DC /* WJKSubclassificationSegmentView.m */; };
+		FACF6006202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF6001202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.m */; };
+		FACF6007202D941800AB41DC /* WJKChannelSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF6003202D941800AB41DC /* WJKChannelSelectorView.m */; };
+		FACF6008202D941800AB41DC /* WJKChannelSelectorCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF6004202D941800AB41DC /* WJKChannelSelectorCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +56,6 @@
 		FACF5FC2202D73CE00AB41DC /* WJKChannelSelectorViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJKChannelSelectorViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACF5FCD202D73CF00AB41DC /* WJKChannelSelectorViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJKChannelSelectorViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACF5FDF202D74FB00AB41DC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		FACF5FE2202D751000AB41DC /* WJKSubclassificationSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKSubclassificationSegmentView.m; sourceTree = "<group>"; };
-		FACF5FE3202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorCollectionViewCell.h; sourceTree = "<group>"; };
-		FACF5FE4202D751000AB41DC /* WJKChannelSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorView.h; sourceTree = "<group>"; };
-		FACF5FE6202D751000AB41DC /* WJKChannelSelectorCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorCollectionView.h; sourceTree = "<group>"; };
-		FACF5FE7202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorCollectionViewCell.m; sourceTree = "<group>"; };
-		FACF5FE8202D751000AB41DC /* WJKSubclassificationSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKSubclassificationSegmentView.h; sourceTree = "<group>"; };
-		FACF5FEA202D751000AB41DC /* WJKChannelSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorView.m; sourceTree = "<group>"; };
-		FACF5FEB202D751000AB41DC /* WJKChannelSelectorCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorCollectionView.m; sourceTree = "<group>"; };
 		FACF5FF1202D777200AB41DC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FACF5FF3202D7B4000AB41DC /* WJKGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJKGlobal.h; sourceTree = "<group>"; };
 		FACF5FF4202D7B4000AB41DC /* WJKGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJKGlobal.m; sourceTree = "<group>"; };
@@ -71,6 +63,14 @@
 		FACF5FF7202D804900AB41DC /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		FACF5FF9202D80A100AB41DC /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		FACF5FFA202D80A100AB41DC /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		FACF5FFD202D941800AB41DC /* WJKSubclassificationSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKSubclassificationSegmentView.m; sourceTree = "<group>"; };
+		FACF5FFE202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorCollectionViewCell.h; sourceTree = "<group>"; };
+		FACF5FFF202D941800AB41DC /* WJKChannelSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorView.h; sourceTree = "<group>"; };
+		FACF6000202D941800AB41DC /* WJKChannelSelectorCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorCollectionView.h; sourceTree = "<group>"; };
+		FACF6001202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorCollectionViewCell.m; sourceTree = "<group>"; };
+		FACF6002202D941800AB41DC /* WJKSubclassificationSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKSubclassificationSegmentView.h; sourceTree = "<group>"; };
+		FACF6003202D941800AB41DC /* WJKChannelSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorView.m; sourceTree = "<group>"; };
+		FACF6004202D941800AB41DC /* WJKChannelSelectorCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,7 @@
 		FACF5FAC202D73CE00AB41DC /* WJKChannelSelectorViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FACF5FE1202D751000AB41DC /* WJKChannelSelectorView */,
+				FACF5FFC202D941800AB41DC /* WJKChannelSelectorView */,
 				FACF5FAD202D73CE00AB41DC /* AppDelegate.h */,
 				FACF5FAE202D73CE00AB41DC /* AppDelegate.m */,
 				FACF5FB0202D73CE00AB41DC /* ViewController.h */,
@@ -156,21 +156,6 @@
 			path = WJKChannelSelectorViewDemo;
 			sourceTree = "<group>";
 		};
-		FACF5FE1202D751000AB41DC /* WJKChannelSelectorView */ = {
-			isa = PBXGroup;
-			children = (
-				FACF5FE4202D751000AB41DC /* WJKChannelSelectorView.h */,
-				FACF5FEA202D751000AB41DC /* WJKChannelSelectorView.m */,
-				FACF5FE6202D751000AB41DC /* WJKChannelSelectorCollectionView.h */,
-				FACF5FEB202D751000AB41DC /* WJKChannelSelectorCollectionView.m */,
-				FACF5FE3202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.h */,
-				FACF5FE7202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m */,
-				FACF5FE8202D751000AB41DC /* WJKSubclassificationSegmentView.h */,
-				FACF5FE2202D751000AB41DC /* WJKSubclassificationSegmentView.m */,
-			);
-			path = WJKChannelSelectorView;
-			sourceTree = "<group>";
-		};
 		FACF5FF2202D7B1300AB41DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,6 +166,22 @@
 				FACF5FDF202D74FB00AB41DC /* Launch Screen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACF5FFC202D941800AB41DC /* WJKChannelSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				FACF5FFD202D941800AB41DC /* WJKSubclassificationSegmentView.m */,
+				FACF5FFE202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.h */,
+				FACF5FFF202D941800AB41DC /* WJKChannelSelectorView.h */,
+				FACF6000202D941800AB41DC /* WJKChannelSelectorCollectionView.h */,
+				FACF6001202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.m */,
+				FACF6002202D941800AB41DC /* WJKSubclassificationSegmentView.h */,
+				FACF6003202D941800AB41DC /* WJKChannelSelectorView.m */,
+				FACF6004202D941800AB41DC /* WJKChannelSelectorCollectionView.m */,
+			);
+			name = WJKChannelSelectorView;
+			path = ../../WJKChannelSelectorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,15 +374,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACF5FEF202D751000AB41DC /* WJKChannelSelectorView.m in Sources */,
-				FACF5FEC202D751000AB41DC /* WJKSubclassificationSegmentView.m in Sources */,
+				FACF6008202D941800AB41DC /* WJKChannelSelectorCollectionView.m in Sources */,
+				FACF6005202D941800AB41DC /* WJKSubclassificationSegmentView.m in Sources */,
 				FACF5FFB202D80A100AB41DC /* SearchViewController.m in Sources */,
-				FACF5FF0202D751000AB41DC /* WJKChannelSelectorCollectionView.m in Sources */,
 				FACF5FF8202D804900AB41DC /* TabViewController.m in Sources */,
 				FACF5FF5202D7B4000AB41DC /* WJKGlobal.m in Sources */,
 				FACF5FB2202D73CE00AB41DC /* ViewController.m in Sources */,
-				FACF5FED202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m in Sources */,
 				FACF5FBD202D73CE00AB41DC /* main.m in Sources */,
+				FACF6007202D941800AB41DC /* WJKChannelSelectorView.m in Sources */,
+				FACF6006202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.m in Sources */,
 				FACF5FAF202D73CE00AB41DC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
