@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A16C54F4BFEEA92286AFB6 /* libPods-WJKChannelSelectorViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0592E651F52EDA5A9B65D5DF /* libPods-WJKChannelSelectorViewDemo.a */; };
+		FACF5FAF202D73CE00AB41DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FAE202D73CE00AB41DC /* AppDelegate.m */; };
+		FACF5FB2202D73CE00AB41DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FB1202D73CE00AB41DC /* ViewController.m */; };
+		FACF5FB5202D73CE00AB41DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF5FB3202D73CE00AB41DC /* Main.storyboard */; };
+		FACF5FB7202D73CE00AB41DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACF5FB6202D73CE00AB41DC /* Assets.xcassets */; };
+		FACF5FBD202D73CE00AB41DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FBC202D73CE00AB41DC /* main.m */; };
+		FACF5FE0202D74FB00AB41DC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACF5FDF202D74FB00AB41DC /* Launch Screen.storyboard */; };
+		FACF5FEC202D751000AB41DC /* WJKSubclassificationSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FE2202D751000AB41DC /* WJKSubclassificationSegmentView.m */; };
+		FACF5FED202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FE7202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m */; };
+		FACF5FEF202D751000AB41DC /* WJKChannelSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FEA202D751000AB41DC /* WJKChannelSelectorView.m */; };
+		FACF5FF0202D751000AB41DC /* WJKChannelSelectorCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FEB202D751000AB41DC /* WJKChannelSelectorCollectionView.m */; };
+		FACF5FF5202D7B4000AB41DC /* WJKGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FF4202D7B4000AB41DC /* WJKGlobal.m */; };
+		FACF5FF8202D804900AB41DC /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FF7202D804900AB41DC /* TabViewController.m */; };
+		FACF5FFB202D80A100AB41DC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF5FFA202D80A100AB41DC /* SearchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACF5FC3202D73CE00AB41DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACF5FA2202D73CE00AB41DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACF5FA9202D73CE00AB41DC;
+			remoteInfo = WJKChannelSelectorViewDemo;
+		};
+		FACF5FCE202D73CF00AB41DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACF5FA2202D73CE00AB41DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACF5FA9202D73CE00AB41DC;
+			remoteInfo = WJKChannelSelectorViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0592E651F52EDA5A9B65D5DF /* libPods-WJKChannelSelectorViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJKChannelSelectorViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55948703DCFAEE33FFA8FCC4 /* Pods-WJKChannelSelectorViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJKChannelSelectorViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJKChannelSelectorViewDemo/Pods-WJKChannelSelectorViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F43A6E9DB04246EB20207BF0 /* Pods-WJKChannelSelectorViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJKChannelSelectorViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJKChannelSelectorViewDemo/Pods-WJKChannelSelectorViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FACF5FAA202D73CE00AB41DC /* WJKChannelSelectorViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJKChannelSelectorViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF5FAD202D73CE00AB41DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FACF5FAE202D73CE00AB41DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FACF5FB0202D73CE00AB41DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FACF5FB1202D73CE00AB41DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FACF5FB4202D73CE00AB41DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACF5FB6202D73CE00AB41DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACF5FBB202D73CE00AB41DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACF5FBC202D73CE00AB41DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FACF5FC2202D73CE00AB41DC /* WJKChannelSelectorViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJKChannelSelectorViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF5FCD202D73CF00AB41DC /* WJKChannelSelectorViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJKChannelSelectorViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF5FDF202D74FB00AB41DC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		FACF5FE2202D751000AB41DC /* WJKSubclassificationSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKSubclassificationSegmentView.m; sourceTree = "<group>"; };
+		FACF5FE3202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorCollectionViewCell.h; sourceTree = "<group>"; };
+		FACF5FE4202D751000AB41DC /* WJKChannelSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorView.h; sourceTree = "<group>"; };
+		FACF5FE6202D751000AB41DC /* WJKChannelSelectorCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKChannelSelectorCollectionView.h; sourceTree = "<group>"; };
+		FACF5FE7202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorCollectionViewCell.m; sourceTree = "<group>"; };
+		FACF5FE8202D751000AB41DC /* WJKSubclassificationSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJKSubclassificationSegmentView.h; sourceTree = "<group>"; };
+		FACF5FEA202D751000AB41DC /* WJKChannelSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorView.m; sourceTree = "<group>"; };
+		FACF5FEB202D751000AB41DC /* WJKChannelSelectorCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJKChannelSelectorCollectionView.m; sourceTree = "<group>"; };
+		FACF5FF1202D777200AB41DC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FACF5FF3202D7B4000AB41DC /* WJKGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJKGlobal.h; sourceTree = "<group>"; };
+		FACF5FF4202D7B4000AB41DC /* WJKGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJKGlobal.m; sourceTree = "<group>"; };
+		FACF5FF6202D804900AB41DC /* TabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		FACF5FF7202D804900AB41DC /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		FACF5FF9202D80A100AB41DC /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		FACF5FFA202D80A100AB41DC /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACF5FA7202D73CE00AB41DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A16C54F4BFEEA92286AFB6 /* libPods-WJKChannelSelectorViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF5FBF202D73CE00AB41DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF5FCA202D73CF00AB41DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227992EB51EBA209CFAEB02B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0592E651F52EDA5A9B65D5DF /* libPods-WJKChannelSelectorViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29F92F607F8DE445934E7BC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55948703DCFAEE33FFA8FCC4 /* Pods-WJKChannelSelectorViewDemo.debug.xcconfig */,
+				F43A6E9DB04246EB20207BF0 /* Pods-WJKChannelSelectorViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FACF5FA1202D73CE00AB41DC = {
+			isa = PBXGroup;
+			children = (
+				FACF5FAC202D73CE00AB41DC /* WJKChannelSelectorViewDemo */,
+				FACF5FAB202D73CE00AB41DC /* Products */,
+				29F92F607F8DE445934E7BC0 /* Pods */,
+				227992EB51EBA209CFAEB02B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FACF5FAB202D73CE00AB41DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACF5FAA202D73CE00AB41DC /* WJKChannelSelectorViewDemo.app */,
+				FACF5FC2202D73CE00AB41DC /* WJKChannelSelectorViewDemoTests.xctest */,
+				FACF5FCD202D73CF00AB41DC /* WJKChannelSelectorViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACF5FAC202D73CE00AB41DC /* WJKChannelSelectorViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FACF5FE1202D751000AB41DC /* WJKChannelSelectorView */,
+				FACF5FAD202D73CE00AB41DC /* AppDelegate.h */,
+				FACF5FAE202D73CE00AB41DC /* AppDelegate.m */,
+				FACF5FB0202D73CE00AB41DC /* ViewController.h */,
+				FACF5FB1202D73CE00AB41DC /* ViewController.m */,
+				FACF5FF6202D804900AB41DC /* TabViewController.h */,
+				FACF5FF7202D804900AB41DC /* TabViewController.m */,
+				FACF5FF9202D80A100AB41DC /* SearchViewController.h */,
+				FACF5FFA202D80A100AB41DC /* SearchViewController.m */,
+				FACF5FF3202D7B4000AB41DC /* WJKGlobal.h */,
+				FACF5FF4202D7B4000AB41DC /* WJKGlobal.m */,
+				FACF5FB6202D73CE00AB41DC /* Assets.xcassets */,
+				FACF5FF2202D7B1300AB41DC /* Supporting Files */,
+			);
+			path = WJKChannelSelectorViewDemo;
+			sourceTree = "<group>";
+		};
+		FACF5FE1202D751000AB41DC /* WJKChannelSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				FACF5FE4202D751000AB41DC /* WJKChannelSelectorView.h */,
+				FACF5FEA202D751000AB41DC /* WJKChannelSelectorView.m */,
+				FACF5FE6202D751000AB41DC /* WJKChannelSelectorCollectionView.h */,
+				FACF5FEB202D751000AB41DC /* WJKChannelSelectorCollectionView.m */,
+				FACF5FE3202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.h */,
+				FACF5FE7202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m */,
+				FACF5FE8202D751000AB41DC /* WJKSubclassificationSegmentView.h */,
+				FACF5FE2202D751000AB41DC /* WJKSubclassificationSegmentView.m */,
+			);
+			path = WJKChannelSelectorView;
+			sourceTree = "<group>";
+		};
+		FACF5FF2202D7B1300AB41DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACF5FBB202D73CE00AB41DC /* Info.plist */,
+				FACF5FBC202D73CE00AB41DC /* main.m */,
+				FACF5FF1202D777200AB41DC /* PrefixHeader.pch */,
+				FACF5FB3202D73CE00AB41DC /* Main.storyboard */,
+				FACF5FDF202D74FB00AB41DC /* Launch Screen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACF5FA9202D73CE00AB41DC /* WJKChannelSelectorViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF5FD6202D73CF00AB41DC /* Build configuration list for PBXNativeTarget "WJKChannelSelectorViewDemo" */;
+			buildPhases = (
+				4A301BB15995B79FECF0DDA9 /* [CP] Check Pods Manifest.lock */,
+				FACF5FA6202D73CE00AB41DC /* Sources */,
+				FACF5FA7202D73CE00AB41DC /* Frameworks */,
+				FACF5FA8202D73CE00AB41DC /* Resources */,
+				C1B5DDFAF350496A7C6110AF /* [CP] Embed Pods Frameworks */,
+				BEC4CCB0669AD35915D7E509 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJKChannelSelectorViewDemo;
+			productName = WJKChannelSelectorViewDemo;
+			productReference = FACF5FAA202D73CE00AB41DC /* WJKChannelSelectorViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACF5FC1202D73CE00AB41DC /* WJKChannelSelectorViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF5FD9202D73CF00AB41DC /* Build configuration list for PBXNativeTarget "WJKChannelSelectorViewDemoTests" */;
+			buildPhases = (
+				FACF5FBE202D73CE00AB41DC /* Sources */,
+				FACF5FBF202D73CE00AB41DC /* Frameworks */,
+				FACF5FC0202D73CE00AB41DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACF5FC4202D73CE00AB41DC /* PBXTargetDependency */,
+			);
+			name = WJKChannelSelectorViewDemoTests;
+			productName = WJKChannelSelectorViewDemoTests;
+			productReference = FACF5FC2202D73CE00AB41DC /* WJKChannelSelectorViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACF5FCC202D73CF00AB41DC /* WJKChannelSelectorViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF5FDC202D73CF00AB41DC /* Build configuration list for PBXNativeTarget "WJKChannelSelectorViewDemoUITests" */;
+			buildPhases = (
+				FACF5FC9202D73CF00AB41DC /* Sources */,
+				FACF5FCA202D73CF00AB41DC /* Frameworks */,
+				FACF5FCB202D73CF00AB41DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACF5FCF202D73CF00AB41DC /* PBXTargetDependency */,
+			);
+			name = WJKChannelSelectorViewDemoUITests;
+			productName = WJKChannelSelectorViewDemoUITests;
+			productReference = FACF5FCD202D73CF00AB41DC /* WJKChannelSelectorViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACF5FA2202D73CE00AB41DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Zeaho;
+				TargetAttributes = {
+					FACF5FA9202D73CE00AB41DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FACF5FC1202D73CE00AB41DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FACF5FA9202D73CE00AB41DC;
+					};
+					FACF5FCC202D73CF00AB41DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FACF5FA9202D73CE00AB41DC;
+					};
+				};
+			};
+			buildConfigurationList = FACF5FA5202D73CE00AB41DC /* Build configuration list for PBXProject "WJKChannelSelectorViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACF5FA1202D73CE00AB41DC;
+			productRefGroup = FACF5FAB202D73CE00AB41DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACF5FA9202D73CE00AB41DC /* WJKChannelSelectorViewDemo */,
+				FACF5FC1202D73CE00AB41DC /* WJKChannelSelectorViewDemoTests */,
+				FACF5FCC202D73CF00AB41DC /* WJKChannelSelectorViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACF5FA8202D73CE00AB41DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF5FE0202D74FB00AB41DC /* Launch Screen.storyboard in Resources */,
+				FACF5FB7202D73CE00AB41DC /* Assets.xcassets in Resources */,
+				FACF5FB5202D73CE00AB41DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF5FC0202D73CE00AB41DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF5FCB202D73CF00AB41DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A301BB15995B79FECF0DDA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WJKChannelSelectorViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC4CCB0669AD35915D7E509 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WJKChannelSelectorViewDemo/Pods-WJKChannelSelectorViewDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJKChannelSelectorViewDemo/Pods-WJKChannelSelectorViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B5DDFAF350496A7C6110AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJKChannelSelectorViewDemo/Pods-WJKChannelSelectorViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACF5FA6202D73CE00AB41DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF5FEF202D751000AB41DC /* WJKChannelSelectorView.m in Sources */,
+				FACF5FEC202D751000AB41DC /* WJKSubclassificationSegmentView.m in Sources */,
+				FACF5FFB202D80A100AB41DC /* SearchViewController.m in Sources */,
+				FACF5FF0202D751000AB41DC /* WJKChannelSelectorCollectionView.m in Sources */,
+				FACF5FF8202D804900AB41DC /* TabViewController.m in Sources */,
+				FACF5FF5202D7B4000AB41DC /* WJKGlobal.m in Sources */,
+				FACF5FB2202D73CE00AB41DC /* ViewController.m in Sources */,
+				FACF5FED202D751000AB41DC /* WJKChannelSelectorCollectionViewCell.m in Sources */,
+				FACF5FBD202D73CE00AB41DC /* main.m in Sources */,
+				FACF5FAF202D73CE00AB41DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF5FBE202D73CE00AB41DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACF5FC9202D73CF00AB41DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACF5FC4202D73CE00AB41DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACF5FA9202D73CE00AB41DC /* WJKChannelSelectorViewDemo */;
+			targetProxy = FACF5FC3202D73CE00AB41DC /* PBXContainerItemProxy */;
+		};
+		FACF5FCF202D73CF00AB41DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACF5FA9202D73CE00AB41DC /* WJKChannelSelectorViewDemo */;
+			targetProxy = FACF5FCE202D73CF00AB41DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACF5FB3202D73CE00AB41DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF5FB4202D73CE00AB41DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACF5FD4202D73CF00AB41DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FACF5FD5202D73CF00AB41DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACF5FD7202D73CF00AB41DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55948703DCFAEE33FFA8FCC4 /* Pods-WJKChannelSelectorViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WJKChannelSelectorViewDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "WJKChannelSelectorViewDemo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKChannelSelectorViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACF5FD8202D73CF00AB41DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43A6E9DB04246EB20207BF0 /* Pods-WJKChannelSelectorViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WJKChannelSelectorViewDemo/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "WJKChannelSelectorViewDemo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKChannelSelectorViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FACF5FDA202D73CF00AB41DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				INFOPLIST_FILE = WJKChannelSelectorViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKChannelSelectorViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJKChannelSelectorViewDemo.app/WJKChannelSelectorViewDemo";
+			};
+			name = Debug;
+		};
+		FACF5FDB202D73CF00AB41DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				INFOPLIST_FILE = WJKChannelSelectorViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKChannelSelectorViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJKChannelSelectorViewDemo.app/WJKChannelSelectorViewDemo";
+			};
+			name = Release;
+		};
+		FACF5FDD202D73CF00AB41DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				INFOPLIST_FILE = WJKChannelSelectorViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKChannelSelectorViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJKChannelSelectorViewDemo;
+			};
+			name = Debug;
+		};
+		FACF5FDE202D73CF00AB41DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ENWLKZ8AQ;
+				INFOPLIST_FILE = WJKChannelSelectorViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.nedu.WJKChannelSelectorViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WJKChannelSelectorViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACF5FA5202D73CE00AB41DC /* Build configuration list for PBXProject "WJKChannelSelectorViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF5FD4202D73CF00AB41DC /* Debug */,
+				FACF5FD5202D73CF00AB41DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF5FD6202D73CF00AB41DC /* Build configuration list for PBXNativeTarget "WJKChannelSelectorViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF5FD7202D73CF00AB41DC /* Debug */,
+				FACF5FD8202D73CF00AB41DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF5FD9202D73CF00AB41DC /* Build configuration list for PBXNativeTarget "WJKChannelSelectorViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF5FDA202D73CF00AB41DC /* Debug */,
+				FACF5FDB202D73CF00AB41DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF5FDC202D73CF00AB41DC /* Build configuration list for PBXNativeTarget "WJKChannelSelectorViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF5FDD202D73CF00AB41DC /* Debug */,
+				FACF5FDE202D73CF00AB41DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACF5FA2202D73CE00AB41DC /* Project object */;
+}

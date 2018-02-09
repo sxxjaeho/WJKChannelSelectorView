@@ -1,0 +1,21 @@
+PODS:
+  - CategoryKit-Additions (1.0.0)
+  - Masonry (1.0.2)
+  - MJRefresh (3.1.15.3)
+  - TYPagerController (2.1.2)
+
+DEPENDENCIES:
+  - CategoryKit-Additions (~> 1.0.0)
+  - Masonry (~> 1.0.2)
+  - MJRefresh (~> 3.1.12)
+  - TYPagerController
+
+SPEC CHECKSUMS:
+  CategoryKit-Additions: 1b5562332b544ee4b291e22cbb72b03764bf1412
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  TYPagerController: 262556ecef99986d26ed77fb1288a198ed42f4af
+
+PODFILE CHECKSUM: abc983173037c2e884d6ff5adc5eeae57727fa98
+
+COCOAPODS: 1.3.1

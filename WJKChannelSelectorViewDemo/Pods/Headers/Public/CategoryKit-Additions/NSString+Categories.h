@@ -1,0 +1,1 @@
+../../../CategoryKit-Additions/CategoryKit-Additions/NSString+Categories.h
