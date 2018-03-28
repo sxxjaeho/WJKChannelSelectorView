@@ -32,7 +32,12 @@
     [super layoutSubviews];
 //    self.titleLabel.frame = [self bounds];
     
+    [CATransaction begin];
+    [CATransaction setDisableActions:YES];
+    
     self.coverImageView.frame = [self bounds];
+    
+    [CATransaction commit];
 }
 
 #pragma mark - accessor

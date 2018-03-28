@@ -171,14 +171,14 @@
 		FACF5FFC202D941800AB41DC /* WJKChannelSelectorView */ = {
 			isa = PBXGroup;
 			children = (
-				FACF5FFD202D941800AB41DC /* WJKSubclassificationSegmentView.m */,
-				FACF5FFE202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.h */,
 				FACF5FFF202D941800AB41DC /* WJKChannelSelectorView.h */,
+				FACF6003202D941800AB41DC /* WJKChannelSelectorView.m */,
 				FACF6000202D941800AB41DC /* WJKChannelSelectorCollectionView.h */,
+				FACF6004202D941800AB41DC /* WJKChannelSelectorCollectionView.m */,
+				FACF5FFE202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.h */,
 				FACF6001202D941800AB41DC /* WJKChannelSelectorCollectionViewCell.m */,
 				FACF6002202D941800AB41DC /* WJKSubclassificationSegmentView.h */,
-				FACF6003202D941800AB41DC /* WJKChannelSelectorView.m */,
-				FACF6004202D941800AB41DC /* WJKChannelSelectorCollectionView.m */,
+				FACF5FFD202D941800AB41DC /* WJKSubclassificationSegmentView.m */,
 			);
 			name = WJKChannelSelectorView;
 			path = ../../WJKChannelSelectorView;
